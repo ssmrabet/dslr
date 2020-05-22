@@ -40,7 +40,7 @@ if __name__ == '__main__':
     try:
         data = pd.read_csv(sys.argv[1])
     except:
-        print("Usage: python3 describe resources/dataset_train.csv")
+        print("Usage: python3 describe.py datasets/dataset_train.csv")
         exit (-1)
     features = {}
     features_name = ["Arithmancy","Astronomy","Herbology","Defense Against the Dark Arts","Divination","Muggle Studies","Ancient Runes","History of Magic","Transfiguration","Potions","Care of Magical Creatures","Charms","Flying"]
